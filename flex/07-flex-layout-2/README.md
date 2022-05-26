@@ -31,3 +31,8 @@ On a smaller screen it will look like this:
 - The sidebar has 16px padding.
 - There is 32px padding around the 'cards' section.
 - The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+
+### Observations
+- I need to be more mindful of when I Flexbox. I used it to lay out the li's in my ul container in a column. By default li's are laid out in the block direction so this was unnecessary.
+- I gave the cards a specific height and align-items of flex-start to achieve the affect I saw in the layout. TOPs solution was not to specify a height for the card, since align-items default is stretch, the items will end up the same size on the same row.
+- Since ul was no longer a flex container, I needed to use margin in the card element to create space for the flex items. Usually we need to use gap but since ul is not a flex container we couldn't use that property. Gave card margins instead.

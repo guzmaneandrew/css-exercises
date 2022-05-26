@@ -20,3 +20,8 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 - The logo, input and buttons are centered in the screen.
 - The buttons have an appropriate amount of padding.
 - There is space between the logo, input and buttons.
+
+#### Observations
+- I got the footer to stick to the bottom by using justify-content: space-between on the body. TOP solution set flex:1 on the content only
+- I keep using margin to space out flex items, ideally need to use gap property for this
+- Need to remember default margin and padding is applied to ul's

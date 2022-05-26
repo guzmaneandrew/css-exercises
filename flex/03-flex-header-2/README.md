@@ -19,3 +19,6 @@ As with the last example, this one needs to be flexible in the middle, with item
 - Items are arranged horizontally as seen in the outcome image.
 - There is 16px between each item on both sides of the header.
 - flex is used to arrange everything.
+
+#### Observations
+- When the window is resized smaller, the flex items (button, profile picture, and links) change size. The content in them gets rearranged but the layout is preserved.
